@@ -1,0 +1,75 @@
+/* Until Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header {
+    background-color: #032130;
+    /* padding: 30px 80px; */
+    padding: 42px 20px 0 !important;
+  }
+  .nav-header {
+    flex-basis: 54%;
+  }
+  .nav-header > img {
+    height: 42px !important;
+    width: 230px !important;
+  }
+
+  nav > ul {
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    display: none !important;
+  }
+
+  nav ul li a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    /* font-weight: none; Remove this line */
+  }
+
+  .hire-btn {
+    display: none;
+  }
+}
+
+/* Until Tablet */
+
+/* Until Mobile */
+
+@media screen and (max-width: 767px) {
+  header {
+    background-color: #032130;
+    /* padding: 30px 80px; */
+    padding: 42px 20px 0 !important;
+  }
+  .nav-header {
+    flex-basis: 54%;
+  }
+  .nav-header > img {
+    height: 32px !important;
+    width: 130px !important;
+  }
+
+  nav > ul {
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    display: none !important;
+  }
+
+  nav ul li a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    /* font-weight: none; Remove this line */
+  }
+
+  .hire-btn {
+    display: none;
+  }
+}
+
+/* Until Mobile */
